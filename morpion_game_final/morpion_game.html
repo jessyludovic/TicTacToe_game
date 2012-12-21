@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+// Affichage de la page Web
+// Document créé par Jessy-Ludovic Zue Ntoutoume le 18 - dec - 2012
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="auteur" content="Jessy-Ludovic Zué Ntoutoume"/>
+    <title> Tic tac toe game in Dart Web Language</title>
+    <link rel="stylesheet" href="morpion_game.css">
+  </head>
+  <body>
+    <h1> Jeu du Tic Tac Toe en "Dart Web Language"
+    <br> Par Jessy-Ludovic Zué-Ntoutoume </h1>
+      <header>
+      <h2> Jeu aussi connu sous le nom de "Morpion Game" {Ctrl+Clic <a href=
+ "http://fr.wikipedia.org/wiki/Tic-tac-toe_(jeu)">
+                ICI </a> pour le WIKI (règles et description)}. </h2>
+      <h3>Projet de session dans le cadre du cours SIO-6014,
+      <br> Automne 2012, FSA, Université Laval 
+      <br> Professeur et inspiration: Dzenan Ridjanovic <a href= "http://ondart.me/">(Web programming with Dart)</a></h3>
+      <!-- http://ondart.me/ -->
+      </header>
+    <section> 
+      <canvas id="canvas" width="600" height="360">
+        Canvas is not supported in your browser.
+        <img id ="img_croix"
+          src="image/img_croix.jpg">
+         <img id ="img_rond" 
+          src="image/img_rond.jpg">
+         <img id ="gagne" 
+         src="image/gagne.jpg">
+         <img id ="perdu" 
+         src="image/perdu.jpg">
+         <img id ="matchnul" 
+         src="image/matchnul.jpg">
+         <img id ="avous" 
+         src="image/avous.jpg">
+         <img id ="vide" 
+         src="image/vide.jpg">
+         <img id ="alordi" 
+         src="image/alordi.jpg">    
+      </canvas> 
+    </section> 
+      <footer>
+        <h3>------------------------------------------------------------------------------
+        <br> Instructions: 
+        <br> - Le jeu commence quand vous cliquez sur une première case.
+        <br> - Appuyer sur "Espace" pour commencer une nouvelle partie.
+        <br> - Pour reinitialiser les statistiques, actualisez la page Web. 
+        <br>------------------------------------------------------------------------------
+        </h3> 
+      </footer>
+      <nav>
+        <ul>
+          <li>Liens importants
+            <ul>
+             <li>
+               <a href=
+"https://github.com/jessyludovic">
+                 Mon code source sur git-hub
+               </a>
+             </li>
+             <li>
+               <a href=
+"https://github.com/dzenanr/"> 
+                 Profil du prof sur git-hub
+               </a>
+             </li> 
+             <li>
+               <a href=
+"http://fr.wikipedia.org/wiki/Tic-tac-toe_(jeu)">
+                 Description du jeu sur WIKIPEDIA
+               </a>
+             </li>       
+           </ul>
+        <ul>
+    
+    <script type="application/dart" src="morpion_game.dart"></script>
+    <script 
+     src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js">
+    </script>
+  </body>
+</html>

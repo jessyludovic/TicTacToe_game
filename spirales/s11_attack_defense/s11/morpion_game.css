@@ -1,0 +1,44 @@
+/*
+  Titre:                   Web Page Design Style
+  Auteur:                  Jessy Ludovic Zué Ntoutoume 
+  Influencée par:          Dzenan Ridjanovic influencée par http://www.simplebits.com/
+  Créé le:                 2006-09-03 par Dzenan Ridjanovic
+  Modifié le:              2012-12-19 par Jessy-Ludovic Zué Ntoutoume
+*/
+
+  body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    background: #CCCCFF;
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px; 
+  }
+
+  section {
+    padding: 5px;
+    margin-left: 240px;
+    margin-right: auto;
+  }
+
+  nav {
+    line-height: 1.5 em;
+    font-size: 13px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .drop {
+        float: left;
+        font-size: 240%;
+        line-height: 1em;
+        margin: 4px 8px 8px 0px;
+        padding: 4px 8px;
+        border: 2px solid #cccccc;
+        background: #fffff0;
+  }
+          
+/* ===[ end ]=== */
